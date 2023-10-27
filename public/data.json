@@ -1,0 +1,471 @@
+[
+  {
+    "name": "Pepperoni Passion",
+    "image": "https://i.ibb.co/TmNnbT2/usman-yousaf-Nig-Bt-Hu-Qj-Vc-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "menu":"",
+    "price": "430",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Veggie Medley",
+    "image": "https://i.ibb.co/LhnM6GZ/alessandro-d-antonio-Ve-IEs-Uipvg-Q-unsplash-1-removebg-preview.png",
+    "type": "pizza",
+    "price": "375",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "BBQ Delight",
+    "image": "https://i.ibb.co/4JsWpHW/shardar-tarikul-islam-8-YOx4-O8i-WEo-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "395",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Pesto Pizzazz",
+    "image": "https://i.ibb.co/S5PD1GY/shourav-sheikh-a66s-Gf-Onnq-Q-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "430",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Hawaiian Luau",
+    "image": "https://i.ibb.co/5Wp52cP/omer-haktan-bulut-Ut7-Vz28-HNEQ-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "430",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Meaty Marvel",
+    "image": "https://i.ibb.co/YfMnCyN/julian-rojas-dattwyler-Lpp-Ak-C7s6u4-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "410",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Margherita",
+    "image": "https://i.ibb.co/vkqymkh/jodie-morgan-mp-Zb6-Jv-c-Bg-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "330",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Truffle",
+    "image": "https://i.ibb.co/yRwNkLF/thomas-tucker-MNtag-e-XMKw-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "380",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Buffalo",
+    "image": "https://i.ibb.co/ggpkKCx/inna-gurina-Jsp-LKUauw-SI-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "370",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Blaze",
+    "image": "https://i.ibb.co/RQvjjsV/i-do-nothing-but-love-u8z-YRj-LHKBY-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "330",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Caprese",
+    "image": "https://i.ibb.co/5c8zRc1/getulio-moraes-1-Zl-Pyudyodw-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "380",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Sausage",
+    "image": "https://i.ibb.co/T2PnDSK/georgia-z-JG5lgvc57q-E-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "420",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Fiesta",
+    "image": "https://i.ibb.co/0B5Rvn8/mariusz-slonski-1pru7k-OTDLA-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "430",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Elegance",
+    "image": "https://i.ibb.co/94mFcCK/mariusz-slonski-l-Mo-Cl-ZXN88-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "450",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Prosciutto",
+    "image": "https://i.ibb.co/GdskVpY/louis-hansel-Qs-KO-Vo-Yo-ZU-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "440",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Taco Time",
+    "image": "https://i.ibb.co/QKgmh0k/lissete-laverde-k-Wmf2gxi-OAI-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "410",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Sweet Heat",
+    "image": "https://i.ibb.co/BLpC5QC/faizan-saeed-8thte7ce-LSw-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "380",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Garlic Knots",
+    "image": "https://i.ibb.co/bgn7bzB/erik-mclean-P943-SGF2a-Yc-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "375",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Meatball",
+    "image": "https://i.ibb.co/56vsSYS/david-benes-zs-Rh-TW3qrmo-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "350",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Mediterranean",
+    "image": "https://i.ibb.co/B45BWps/daniel-prado-TDH56xu-B3dk-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "375",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Delight",
+    "image": "https://i.ibb.co/vPW0H1F/catia-climovich-Gz-Dmhn-JBp-Yc-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "450",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "S'mores",
+    "image": "https://i.ibb.co/qp8K7yN/bulbul-ahmed-5-T369-KMIPac-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "420",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Cheesesteak",
+    "image": "https://i.ibb.co/qCPwfV2/blvck-paris-3-Nwdzh-VZk-TA-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "410",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Buffalo",
+    "image": "https://i.ibb.co/Vpmg3Vb/ashkan-forouzani-r6o1rd-Th-T0-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "360",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Ranch",
+    "image": "https://i.ibb.co/MPd1VM1/ankur-dagar-1rh-Y4ne-BJhs-unsplash-removebg-preview.png",
+    "type": "pizza",
+    "price": "340",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Texan Tornado",
+    "image": "https://i.ibb.co/LhnM6GZ/alessandro-d-antonio-Ve-IEs-Uipvg-Q-unsplash-1-removebg-preview.png",
+    "type": "pizza",
+    "price": "340",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Taco Treat",
+    "image": "https://i.ibb.co/q7YXDMp/sheri-silver-t-WOt1v-Rvob4-unsplash.jpg",
+    "type": "pizza",
+    "price": "310",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Berry Bliss",
+    "image": "https://i.ibb.co/kGR90xm/owen-bruce-ssf2-Kp-GCdmo-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "220",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Vanilla Dream",
+    "image": "https://i.ibb.co/1btqrFG/ben-neale-c-ARNi-Gpmf70-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "190",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Caramel",
+    "image": "https://i.ibb.co/tzGYcjS/rae-goldman-c-KJ8-Zx-Q2b-C8-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "180",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Cobbler",
+    "image": "https://i.ibb.co/mNdHsD6/brigitte-tohm-2n-Ec-Bg8i-Ksw-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "160",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Crisp",
+    "image": "https://i.ibb.co/8z8D0M7/mohammad-lotfian-uxd0c-W5d-OLE-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "140",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Shortcake",
+    "image": "https://i.ibb.co/g45yQHR/brooke-cagle-j3-Y8x-Grx0n8-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "190",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Raspberry",
+    "image": "https://i.ibb.co/8Db01hK/umesh-soni-Me-Gx6p-A1z-GA-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "180",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Cheesecake",
+    "image": "https://i.ibb.co/nzbVgwy/toa-heftiba-7-JYVKRo7i5-Q-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "250",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Muffin",
+    "image": "https://i.ibb.co/TgLK3Nv/tamilazhagan-UML-OZFh-xo-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "150",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Pecan Pie",
+    "image": "https://i.ibb.co/YPLzhGP/tai-s-captures-DRC1-Osqoi-U-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "220",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Cookie Dough",
+    "image": "https://i.ibb.co/c69J7Zz/alexander-schimmeck-b-Yrv-Zw9o-Ffg-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "210",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": " Fudge",
+    "image": "https://i.ibb.co/mRx0t1J/rodrigo-flores-opno2u-Wx0i-E-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "180",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Tiramisu",
+    "image": "https://i.ibb.co/gyyP2y1/eugene-kuznetsov-Dkenkd-lwkc-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "160",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Macaroon",
+    "image": "https://i.ibb.co/qgjmBzR/mia-cambriello-o3-TP2wb0a-Tc-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "150",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Jubilee",
+    "image": "https://i.ibb.co/d6rxrSR/angela-pham-k-Rr-gtxbt6-U-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "140",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "Pistachio",
+    "image": "https://i.ibb.co/c69J7Zz/alexander-schimmeck-b-Yrv-Zw9o-Ffg-unsplash-removebg-preview.png",
+    "type": "desert",
+    "price": "260",
+    "discount": "10",
+    "stock": ""
+  },
+  {
+    "name": "coca-cola",
+    "image": "https://i.ibb.co/Vv4TqF7/aryan-dhiman-NOAeukmx-DSk-unsplash-removebg-preview.png",
+    "type": "drinks",
+    "price": "70",
+    "discount": "5",
+    "stock": ""
+  },
+  {
+    "name": "Sprit",
+    "image": "https://i.ibb.co/Lt2rKtd/valentina-tamayo-oa-E6-Zllcc6-Y-unsplash-removebg-preview.png",
+    "type": "drinks",
+    "price": "50",
+    "discount": "5",
+    "stock": ""
+  },
+  {
+    "name": "Frosty",
+    "image": "https://i.ibb.co/TWZNRTr/pexels-miguel-padri-n-1626590-removebg-preview.png",
+    "type": "drinks",
+    "price": "70",
+    "discount": "5",
+    "stock": ""
+  },
+  {
+    "name": "Citrus",
+    "image": "https://i.ibb.co/C7xZ87N/jarritos-mexican-soda-IH25tfp-Rq1-E-unsplash-removebg-preview.png",
+    "type": "drinks",
+    "price": "110",
+    "discount": "5",
+    "stock": ""
+  },
+  {
+    "name": "Splash",
+    "image": "https://i.ibb.co/7nRGvbK/topsphere-media-j6-Z3z-N7-HYs-I-unsplash-removebg-preview-1.png",
+    "type": "drinks",
+    "price": "130",
+    "discount": "5",
+    "stock": ""
+  },
+  {
+    "name": "Colada",
+    "image": "https://i.ibb.co/DRyZYwd/sidral-mundet-jr-CU01-YOH-k-unsplash-removebg-preview.png",
+    "type": "drinks",
+    "price": "175",
+    "discount": "5",
+    "stock": ""
+  },
+  {
+    "name": "Melba",
+    "image": "https://i.ibb.co/yyY5zp0/sangria-senorial-wq-Hv-U5-Mi5-U8-unsplash-removebg-preview.png",
+    "type": "drinks",
+    "price": "185",
+    "discount": "5",
+    "stock": ""
+  },
+  {
+    "name": "Crunch",
+    "image": "https://i.ibb.co/6X8FBfx/paul-einerhand-e-YQ922ja-YTc-unsplash-removebg-preview.png",
+    "type": "drinks",
+    "price": "120",
+    "discount": "5",
+    "stock": ""
+  },
+  {
+    "name": "Sorbet",
+    "image": "https://i.ibb.co/GVSpJ5c/nico-baum-dk4a-Pd7oss4-unsplash-removebg-preview.png",
+    "type": "drinks",
+    "price": "70",
+    "discount": "5",
+    "stock": ""
+  },
+  {
+    "name": "Parfait",
+    "image": "https://i.ibb.co/B67pm8w/monica-di-loxley-dds-RNqy4m5-Y-unsplash-removebg-preview.png",
+    "type": "drinks",
+    "price": "80",
+    "discount": "5",
+    "stock": ""
+  },
+  {
+    "name": "Eclair",
+    "image": "https://i.ibb.co/wN67WRn/jon-koop-T1l-Lp2v-O4-TU-unsplash-removebg-preview.png",
+    "type": "drinks",
+    "price": "90",
+    "discount": "5",
+    "stock": ""
+  },
+  {
+    "name": "Cluck Combo",
+    "image": "https://i.ibb.co/KmBZ62t/7a205082-4321-47fc-9ba2-f5a3710545eb-removebg-preview.png",
+    "type": "package",
+    "price": "1025",
+    "discount": "15",
+    "stock": ""
+  },
+  {
+    "name": "Pizza Feast",
+    "image": "https://i.ibb.co/ZxNRJ3m/48d763b8-9343-44d1-adc5-198fd92581e3-1-removebg-preview.png",
+    "type": "package",
+    "price": "870",
+    "discount": "15",
+    "stock": ""
+  },
+   {
+    "name": " Fowl Fusion",
+    "image": "https://i.ibb.co/R2PqJCP/e77c7baf-c5f2-4770-b291-1475bc559152-removebg-preview.png",
+    "type": "package",
+    "price": "1100",
+    "discount": "15",
+    "stock": ""
+  },
+  
+  {
+    "name": "pizza Paradise",
+    "image": "https://i.ibb.co/547wCZv/cb292fd0-9b4c-499e-847a-d8aa6938360b-removebg-preview.png",
+    "type": "package",
+    "price": "1200",
+    "discount": "15",
+    "stock": ""
+  }
+ 
+  
+
+]
