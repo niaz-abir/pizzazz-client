@@ -55,7 +55,7 @@ const Testimonial = () => {
               </div>
 
               <h2 className="mt-2 text-xl font-semibold dark:text-white md:mt-0">
-                User Review
+                Customers Review
               </h2>
 
               <p className="mt-2 text-sm dark:text-gray-200">

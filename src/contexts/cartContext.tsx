@@ -15,16 +15,20 @@ type Product = {
 
 export const CardProvider = ({ children }: { children: React.ReactNode }) => {
   const { user } = useAuth();
+  console.log(user?.email);
 
   const [cart, setCart] = useState<Product[]>([]);
 
   useEffect(() => {
     const fetchCart = async () => {
-      const res = await fetch(`http://localhost:8080/api/cart/${user?.email}`);
-      const cart = await res.json();
-
-      if (cart.products) {
-        setCart(cart.products);
+      if (user?.email) {
+        const res = await fetch(
+          `https://sercer-pizza.vercel.app/api/cart/${user?.email}`
+        );
+        const cart = await res.json();
+        if (cart?.email === user?.email && cart?.products) {
+          setCart(cart.products);
+        }
       }
     };
 
@@ -45,7 +49,7 @@ export const CardProvider = ({ children }: { children: React.ReactNode }) => {
 
       const updatedCart = [...prevCart, product];
 
-      fetch(`http://localhost:8080/api/cart/${user?.email}`, {
+      fetch(`https://sercer-pizza.vercel.app/api/cart/${user?.email}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -63,7 +67,7 @@ export const CardProvider = ({ children }: { children: React.ReactNode }) => {
     setCart((prevCart) => {
       const updatedCart = prevCart.filter((item) => productId !== item?._id);
 
-      fetch(`http://localhost:8080/api/cart/${user?.email}`, {
+      fetch(`https://sercer-pizza.vercel.app/api/cart/${user?.email}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

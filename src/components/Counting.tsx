@@ -6,7 +6,7 @@ import Image from "next/image";
 const Counting = () => {
   return (
     <div className="mt-8 mb-8 text-white">
-      <h1 className="text-center text-[2rem] mt-14 mb-8 text-secondary-500 font-bold ">
+      <h1 className="text-center text-[2rem] font-primary mt-14 mb-8 text-secondary-500 font-bold ">
         Our Members{" "}
       </h1>
       <div className="flex flex-col gap-8 lg:flex-row lg:justify-evenly">
@@ -27,7 +27,7 @@ const Counting = () => {
                 className="text-green-500"
                 start={0}
                 end={21}
-                duration={6}
+                duration={8}
               />
             </div>
           </div>
@@ -49,7 +49,7 @@ const Counting = () => {
                 className="text-green-500"
                 start={0}
                 end={12}
-                duration={6}
+                duration={8}
               />
             </div>
           </div>

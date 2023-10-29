@@ -26,10 +26,10 @@ const Service = () => {
   ];
   return (
     <section className="mb-8 mt-14">
-      <h1 className="mt-12 mb-8 font-bold text-center text-[2rem] text-secondary-500">
+      <h1 className="mt-12 mb-8 font-bold text-center font-primary text-[2rem] text-secondary-500">
         Our Services
       </h1>
-      <div className="grid grid-cols-1 gap-8 ml-10 lg:ml-8 lg:mr-8 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-8 ml-10 mr-8 lg:ml-8 lg:mr-8 lg:grid-cols-3">
         {services?.map((service) => (
           <div
             service={service}

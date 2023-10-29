@@ -24,7 +24,9 @@ const Food = () => {
   const { data: products = [] } = useQuery({
     queryKey: ["products"],
     queryFn: async () => {
-      const response = await fetch("http://localhost:8080/api/products");
+      const response = await fetch(
+        "https://sercer-pizza.vercel.app/api/products"
+      );
       const products = await response.json();
       return products;
     },
@@ -36,6 +38,19 @@ const Food = () => {
   //   const filteredData = products.filter((item) => item?.type === checkbox);
   //   setPackageFilter(filteredData);
   // }, []);
+  const [selectedTypes, setSelectedTypes] = useState([]);
+
+  const handleCheckboxChange = (event, type) => {
+    if (event.target.checked) {
+      // If the checkbox is checked, add the type to the selectedTypes array
+      setSelectedTypes([...selectedTypes, type]);
+    } else {
+      // If the checkbox is unchecked, remove the type from the selectedTypes array
+      setSelectedTypes(
+        selectedTypes.filter((selectedType) => selectedType !== type)
+      );
+    }
+  };
 
   return (
     <section>
@@ -90,22 +105,30 @@ const Food = () => {
 
           <div>
             <div className="flex mt-4 text-blue-200 text-[20px]">
-              <Checkbox onChange={onChange}>Checkbox</Checkbox>
-              <h1 className="-ml-14 font-primary">Family Pack</h1>
+              <Checkbox onChange={(e) => handleCheckboxChange(e, "pizza")}>
+                Checkbox
+              </Checkbox>
+              <h1 className="-ml-14 font-primary">With Pizza</h1>
               <hr className="w-6 mt-8"></hr>
             </div>
             <div className="flex mt-2 text-blue-200 text-[20px]">
-              <Checkbox onChange={onChange}>Checkbox</Checkbox>
+              <Checkbox onChange={(e) => handleCheckboxChange(e, "desert")}>
+                Checkbox
+              </Checkbox>
               <h1 className="-ml-14 font-primary">with desert</h1>
               <hr className="w-6 mt-8"></hr>
             </div>
             <div className="flex mt-2 text-blue-200 text-[20px]">
-              <Checkbox onChange={onChange}>Checkbox</Checkbox>
+              <Checkbox onChange={(e) => handleCheckboxChange(e, "drinks")}>
+                Checkbox
+              </Checkbox>
               <h1 className="-ml-14 font-primary">with cold drinks</h1>
               <hr className="w-6 mt-8"></hr>
             </div>
             <div className="flex mt-2 text-blue-200 text-[20px]">
-              <Checkbox onChange={onChange}>Checkbox</Checkbox>
+              <Checkbox onChange={(e) => handleCheckboxChange(e, "package")}>
+                Checkbox
+              </Checkbox>
               <h1 className="-ml-14 font-primary">package offer</h1>
               <hr className="w-6 mt-8"></hr>
             </div>
@@ -113,9 +136,15 @@ const Food = () => {
         </form>
         <div className="text-white col-span-full md:col-span-7">
           <div className="grid grid-cols-1 gap-6 mb-2 md:grid-cols-3">
-            {products?.map((data) => (
-              <FoodCard data={data} key={data?.id}></FoodCard>
-            ))}
+            {products
+              ?.filter(
+                (product) =>
+                  selectedTypes.length === 0 ||
+                  selectedTypes.includes(product?.type)
+              )
+              .map((data) => (
+                <FoodCard data={data} key={data?.id}></FoodCard>
+              ))}
           </div>
         </div>
       </div>

@@ -28,10 +28,10 @@ const Menu = () => {
   ];
   return (
     <div className="mt-8 mb-8">
-      <h1 className="mb-8 ml-4 text-[2rem] font-bold text-center mt-14 text-secondary-500 lg:ml-8">
+      <h1 className="mb-8 ml-4 font-primary text-[2rem] font-bold text-center mt-14 text-secondary-500 lg:ml-8">
         Our Delivery Product
       </h1>
-      <div className="grid grid-cols-1 gap-8 ml-12 lg:ml-8 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-8 ml-12 mr-2 lg:ml-8 lg:grid-cols-3">
         {menus?.map((menu) => (
           <div menu={menu} key={menu?.id}>
             <div className="w-full max-w-xs p-4 overflow-hidden border-b-2 border-ternary-500">

@@ -31,22 +31,32 @@ const Navbar = () => {
       href: "/orders", // Define the route you want to navigate to
     },
   ];
+  const menu = (
+    <Menu className="border border-black">
+      {items.map((item) => (
+        <Menu.Item
+          key={item.key}
+          onClick={() => handleMenuItemClick(item)}
+          style={{
+            backgroundColor: "black",
+            color: "green",
+            border: "none",
+            marginRight: "5px",
+          }}
+        >
+          <span className="font-bold bg-black" style={{ background: "black" }}>
+            {item.label}
+          </span>
+        </Menu.Item>
+      ))}
+    </Menu>
+  );
 
   const router = useRouter();
 
   const handleMenuItemClick = (item) => {
     router.push(item.href);
   };
-
-  const menu = (
-    <Menu>
-      {items.map((item) => (
-        <Menu.Item key={item.key} onClick={() => handleMenuItemClick(item)}>
-          <span className="font-bold">{item.label}</span>
-        </Menu.Item>
-      ))}
-    </Menu>
-  );
 
   const { user } = useAuth();
 
@@ -131,6 +141,7 @@ const Navbar = () => {
             >
               cart
             </Link>
+
             {user?.email ? (
               <Link
                 onClick={handleLogout}

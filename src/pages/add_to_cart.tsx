@@ -58,13 +58,14 @@ const AddToCart = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/order/",
+        "https://sercer-pizza.vercel.app/api/order/",
         orderDetails
       );
       //  if (response?.acknowledged) {
       //    toast.success("booking successfully");
       //    navigate("/book");
       //  }
+      router.push("/orders");
 
       console.log("Response:", response.data);
     } catch (error) {
@@ -73,7 +74,7 @@ const AddToCart = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row gap-72">
+    <div className="flex flex-col lg:flex-row gap-24  lg:gap-72 h-[100vh]">
       <div className="flex flex-col max-w-3xl p-6 ml-1 space-y-4 text-white lg:ml-8 sm:p-10 dark:bg-gray-900 dark:text-gray-100">
         <div className="flex items-center justify-center">
           <h2 className="text-xl gap-4 flex justify-center  font-semibold font-primary text-ternary-500 text-[35px]">
@@ -87,13 +88,15 @@ const AddToCart = () => {
             <div key={singleCart?._id} singleCart={singleCart}>
               <li className="flex flex-col py-6 sm:flex-row sm:justify-between">
                 <div className="flex w-full space-x-2 sm:space-x-4">
-                  <Image
-                    className="flex-shrink-0 object-cover rounded outline-none dark:border-transparent sm:w-32 sm:h-32 dark:bg-gray-500"
-                    src={singleCart?.image}
-                    alt=""
-                    height={600}
-                    width={600}
-                  />
+                  <div>
+                    <Image
+                      className="flex-shrink-0 object-cover rounded outline-none dark:border-transparent sm:w-32 sm:h-32 dark:bg-gray-500"
+                      src={singleCart?.image}
+                      alt=""
+                      height={600}
+                      width={600}
+                    />
+                  </div>
                   <div className="flex flex-col justify-between w-full pb-4">
                     <div className="flex justify-between w-full pb-2 space-x-2">
                       <div className="space-y-1">
@@ -242,7 +245,7 @@ const AddToCart = () => {
       </div>
 
       {/* payment section start here */}
-      <div className="mt-14 ml-14 lg:ml-0">
+      <div className="pb-24 mb- mt-14 ml-14 lg:ml-0">
         <div className="flex flex-col">
           {/* first row */}
           <div className="flex gap-1">
@@ -265,7 +268,7 @@ const AddToCart = () => {
               Card Number
             </label>
             <input
-              className="px-10 py-3 bg-primary-600 "
+              className="w-[400px] h-[50px] bg-primary-600"
               placeholder="93892828"
             ></input>
           </div>
@@ -276,21 +279,21 @@ const AddToCart = () => {
                 Expiration
               </label>
               <input
-                className="px-6 py-3 lg:px-8 bg-primary-600"
+                className="w-[190px] h-[50px] lg:px-8 bg-primary-600"
                 placeholder="93892828"
                 type="date"
               ></input>
             </div>
             <div className="flex flex-col mt-6 ">
-              <label className="text-white font-bold text-[20px] font-primary">
+              <label className="text-white font-bold  text-[20px] font-primary">
                 Security Code
               </label>
-              <input className="px-6 py-3 lg:px-8 bg-primary-600"></input>
+              <input className="w-[190px] h-[50px] lg:px-8 pl-3 bg-primary-600"></input>
             </div>
           </div>
           {/* button */}
           <div className="mt-4">
-            <button className="w-full px-8 py-3 text-white font-bold text-[20px] bg-ternary-500 ">
+            <button className="w-[400px] px-8 py-3 text-white font-bold text-[20px] bg-ternary-500 ">
               pay$ {totalPrice}
             </button>
           </div>
