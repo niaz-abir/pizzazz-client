@@ -245,19 +245,19 @@ const AddToCart = () => {
       </div>
 
       {/* payment section start here */}
-      <div className="pb-24 mb- mt-14 ml-14 lg:ml-0">
+      <div className="pb-24 mt-14 ml-14 lg:ml-0">
         <div className="flex flex-col">
           {/* first row */}
           <div className="flex gap-1">
-            <div className="px-10 py-3 font-bold font-primary bg-ternary-500">
+            <div className="px-6 py-2 font-bold lg:px-10 lg:py-3 font-primary bg-ternary-500">
               <AiFillIdcard className="text-white text-[20px]"></AiFillIdcard>
               <h1>Card</h1>
             </div>
-            <div className="px-10 py-3 font-bold text-white bg-primary-600 font-primary">
+            <div className="px-6 py-2 font-bold text-white lg:px-10 lg:py-3 bg-primary-600 font-primary">
               <FaFirstOrderAlt className=" text-sky-600 text-[20px]"></FaFirstOrderAlt>
               <h1>Ideal</h1>
             </div>
-            <div className="px-10 py-3 font-bold text-white bg bg-primary-600 font-primary">
+            <div className="px-4 py-2 font-bold text-white lg:px-10 lg:py-3 bg bg-primary-600 font-primary">
               <RiBankLine className="text-ternary-500 text-[20px]"></RiBankLine>
               <h1>Bancontact</h1>
             </div>
@@ -268,7 +268,7 @@ const AddToCart = () => {
               Card Number
             </label>
             <input
-              className="w-[400px] h-[50px] bg-primary-600"
+              className="w-[280px] h-[40px] lg:w-[400px] lg:h-[50px] bg-primary-600"
               placeholder="93892828"
             ></input>
           </div>
@@ -279,7 +279,7 @@ const AddToCart = () => {
                 Expiration
               </label>
               <input
-                className="w-[190px] h-[50px] lg:px-8 bg-primary-600"
+                className="w-[130px] h-[40px] lg:w-[190px] lg:h-[50px] lg:px-8 bg-primary-600"
                 placeholder="93892828"
                 type="date"
               ></input>
@@ -288,12 +288,12 @@ const AddToCart = () => {
               <label className="text-white font-bold  text-[20px] font-primary">
                 Security Code
               </label>
-              <input className="w-[190px] h-[50px] lg:px-8 pl-3 bg-primary-600"></input>
+              <input className="w-[130px] h-[40px] lg:w-[190px] lg:h-[50px] lg:px-8 pl-3 bg-primary-600"></input>
             </div>
           </div>
           {/* button */}
           <div className="mt-4">
-            <button className="w-[400px] px-8 py-3 text-white font-bold text-[20px] bg-ternary-500 ">
+            <button className=" w-[280px] lg:w-[400px] px-8 py-3 text-white font-bold text-[20px] bg-ternary-500 ">
               pay$ {totalPrice}
             </button>
           </div>
